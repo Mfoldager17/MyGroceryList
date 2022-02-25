@@ -1,0 +1,46 @@
+body {
+    background: rgb(50,50,50);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    color: rgb(66, 227, 255);
+}
+
+.card {
+    margin-left: 3%;
+    border: 5px solid rgb(66, 227, 255);
+    text-align: center;
+    padding: 60px 40px 60px 40px;
+    background-color: rgb(50,50,50);
+    border-radius: 10px;
+}
+
+.name{
+    width: 200px;
+    color: rgb(66, 227, 255);
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(66, 227, 255);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#loginBtn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: rgb(66, 227, 255);
+    color: black;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
