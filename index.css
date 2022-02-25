@@ -1,5 +1,4 @@
 body {
-    background: rgb(50,50,50);
     margin: 0;
     padding: 0;
 }
@@ -13,12 +12,12 @@ body {
 }
 
 h1 {
-    color: rgb(66, 227, 255);
+    color: rgb(66, 148, 255);
 }
 
 .card {
     margin-left: 3%;
-    border: 5px solid rgb(66, 227, 255);
+    border: 5px solid rgb(66, 148, 255);
     text-align: center;
     padding: 60px 40px 60px 40px;
     background-color: rgb(50,50,50);
@@ -30,7 +29,7 @@ h1 {
     color: rgb(66, 227, 255);
     border: none;
     background: transparent;
-    border-bottom: 1px solid rgb(66, 227, 255);
+    border-bottom: 1px solid rgb(66, 148, 255);
     padding: 10px;
     margin-bottom: 15px;
 }
@@ -38,9 +37,32 @@ h1 {
 #loginBtn {
     border-radius: 20px;
     padding: 10px 20px;
-    background: rgb(66, 227, 255);
+    background: rgb(66, 148, 255);
     color: black;
     margin-top: 10px;
     border: none;
     outline: none;
+}
+
+img {
+    width: 30%;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
