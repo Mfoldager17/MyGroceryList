@@ -12,23 +12,19 @@ body {
 }
 
 h1 {
-    color: rgb(66, 148, 255);
+    color: white;
 }
 
 .card {
     margin-left: 3%;
-    border: 5px solid rgb(66, 148, 255);
     text-align: center;
     padding: 60px 40px 60px 40px;
-    background-color: rgb(50,50,50);
     border-radius: 10px;
 }
 
 .name{
     width: 200px;
-    color: rgb(66, 227, 255);
     border: none;
-    background: transparent;
     border-bottom: 1px solid rgb(66, 148, 255);
     padding: 10px;
     margin-bottom: 15px;
@@ -38,10 +34,11 @@ h1 {
     border-radius: 20px;
     padding: 10px 20px;
     background: rgb(66, 148, 255);
-    color: black;
+    color: white;
     margin-top: 10px;
     border: none;
     outline: none;
+    width: 150px;
 }
 
 img {

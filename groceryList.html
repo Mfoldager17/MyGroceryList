@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="groceryList.js" defer></script>
+    <link rel="stylesheet" href="groceryList.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="chooseGroup">
+            <center>
+            <select id="groups">
+                <option value="" selected="true" disabled="disabled">-- Vælg Gruppe --</option>   
+                <option value="TM">Mathias og Trine</option>
+                <option value="GM">Mads og Gitte</option>
+                <option value="SA">Andreas og Sarah</option>
+            </select>
+            </center>
+        </div>
+        </div>
+        <div class="chooseList">
+            <center>
+            <select id="lists">
+                <option value="" selected="true" disabled="disabled">-- Vælg Liste --</option>   
+                <option value="søndag">Søndagsliste</option>
+                <option value="indkøb">Indkøb</option>
+            </select>
+            </center>   
+        </div>
+        <div class="addNewList">
+            <center>
+            <button type="button" class="collapsible">Tilføj Ny liste</button>
+            <div class="content">
+                <input type="text" id="newList" placeholder="Listenavn"><br>
+                <input type="submit" value="Tilføj liste">
+            </div>
+        </center>
+        </div>
+        <center><h1>Konserves</h1></center>
+        <table id="groceryList">
+            <tr>
+                <th>Antal</th>
+                <th>Navn</th>
+                <th>Beskrivelse</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Agurk</td>
+                <td>Køb 2 gode agurker</td>
+            </tr>
+            <tr>
+                <td>3 Liter</td>
+                <td>Mælk</td>
+                <td>Køb 3 liter sødmælk</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hakkede tomater</td>
+                <td>Gerne dem med hvidløgdawdadwdwadwadwadadwwadwadawdwadwadwadadwdaw dawjodwaj ajdiawjd wai jdwia dia j</td>
+            </tr>
+        </table>
+        <center><h1>Nonfood</h1></center>
+        <table id="groceryList">
+            <tr>
+                <th>test</th>
+                <th>test</th>
+                <th>test</th>
+            </tr>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+            <tr>
+                <td>test1</td>
+                <td>test1</td>
+                <td>test1</td>
+            </tr>
+            <tr>
+                <td>test2</td>
+                <td>test2</td>
+                <td>test2</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

@@ -6,6 +6,6 @@ loginBtn.onclick = function() {
     let username = document.getElementById('userName')
     let password = document.getElementById('passWord')
     
-    console.log(username.value + " "+ password.value)
+    window.location.href("groceryList.html")
 
 }
